@@ -1,17 +1,12 @@
-# web-dev-starter
+# M4.2 LAB - CSS PART 1
 
-This is a starter project for web development with no frameworks and minimal
-dependencies. It is intended to be a starting point for web development projects
-that are written in plain HTML, CSS, and JavaScript.
+This project involved structuring and styling the homepage content of a bird-watching website to replicate the layout shown in the provided [example screenshot](./example-page.png).
 
 ## Getting Started
 
-To get started, clone this repository and run the following commands:
+To get started, clone this repository to your local machine.
 
-```bash
-npm install
-```
-This will install the necessary dependencies for the project.
+There is no need to install Node.js dependencies.
 
 ## Development
 
@@ -20,10 +15,15 @@ locally. This will allow you to see changes in real-time as you make them. There
 is no need to run a build process or refresh the page manually. Additionally,
 you do not need to setup a local server to run the project.
 
+## Running
+
+To run the site using Live Preview in VS Code, press `Ctrl+Shift+P` to open the 
+Command Palette, then select `Live Preview: Start Server`. You can copy the URL 
+from the VS Code Live Preview and paste it into a web browser such as Chrome to 
+view the site externally.
+
+To end Live Preview, open Command Palette and select `Live Preview: Stop Server`.
+
 ## Testing
 
-To run the tests for the project, run the following command:
-
-```bash
-npm test
-```
+There are no written tests for this project.
